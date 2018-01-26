@@ -1,0 +1,9 @@
+#game-container {
+  width: 95%;
+  /*margin: auto;*/
+}
+#game {
+  margin: auto;
+  display: block;
+  border: 1px solid #ff0066;
+}
