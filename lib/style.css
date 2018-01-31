@@ -3,7 +3,16 @@
   /*margin: auto;*/
 }
 #game {
-  margin: auto;
+  position: absolute;
+  /*margin-left: 30%;*/
   display: block;
   border: 1px solid #ff0066;
+  z-index: 3;
+}
+#game-bg {
+  position: absolute;
+  height: 700px;
+  width: 900px;
+  background: url(https://i.imgur.com/P8W5HhT.png);
+  z-index: 1;
 }
