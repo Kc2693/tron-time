@@ -90,3 +90,24 @@ body {
   border: 1px solid #FF0000;
   color: #FF0000;
 }
+#instructions {
+  position: absolute;
+  top: 330px;
+  right: 250px;
+  width: 400px;
+  padding-top: 10px;
+}
+#instructions ul {
+  list-style-type: none;
+}
+#instructions li {
+  margin-left: -30px;
+}
+.p2 {
+  display:inline-block;
+  margin-right: 50px;
+} 
+.p1 {
+  display: inline-block;
+  line-height: 1.3;
+}
