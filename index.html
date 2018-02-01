@@ -3,13 +3,24 @@
 <head>
   <meta charset="utf-8">
   <title>Game Time</title>
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./lib/style.css">
 </head>
 <body>
-  <div id="game-bg"></div>
-  <div id="game-container">
-  <canvas id="game" width="900" height="700">
-  </canvas>
+  <div class="a-big-boy">
+    <div id="game-container">
+      <h3 class="game-title">Tron</h3>
+      <!-- <aside class="player-info" id="player2">Lives:</aside> -->
+      <!-- <aside class="player-info" id="player1">Lives:</aside> -->
+      <button class="game-setup-btn no-btn" id="start-btn">Start</button>
+      <form class="game-setup">
+      <button class="game-setup-btn" id="level1">Easy</button>
+      <button class="game-setup-btn" id="level2">Medium</button>
+      <button class="game-setup-btn" id="level3">Hard</button>
+      </form>
+      <canvas id="game" width="900" height="700">
+      </canvas>
+    </div>
   </div>
   <script src="main.bundle.js"></script>
 </body>

@@ -1,18 +1,79 @@
+body {
+  margin: 0;
+  background-color: #000000;
+  overflow-y: hidden;
+  color: #ffffff;
+}
+.a-big-boy {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 5%;
+  text-align: center;
+}
 #game-container {
-  width: 95%;
-  /*margin: auto;*/
-}
-#game {
-  position: absolute;
-  /*margin-left: 30%;*/
-  display: block;
   border: 1px solid #ff0066;
-  z-index: 3;
-}
-#game-bg {
-  position: absolute;
-  height: 700px;
+  position: relative;
+  margin: 55px auto auto auto;
   width: 900px;
   background: url(https://i.imgur.com/P8W5HhT.png);
-  z-index: 1;
+}
+
+.game-title {
+  position: absolute;
+  color: #ff0066;
+  font-family: 'Audiowide', cursive;
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+  width: 900px;
+  top: -60px;
+}
+.player-info {
+  position: absolute;
+  display: inline-block;
+}
+#player2 {
+
+}
+#player1 {
+  right: 0;
+}
+#start-btn {
+  font-size: 36px;
+  position: absolute;
+  top: 200px;
+  right: 350px;
+  height: 50px;
+  width: 200px;
+}
+#start-btn:hover {
+  color: rgba(247, 255, 0, 1);
+  border: 1px solid rgba(247, 255, 0, 1);
+}
+.no-btn {
+  display: none;
+}
+.game-setup {
+  position: absolute;
+  top: 260px;
+  right: 330px;
+}
+.game-setup-btn {
+  font-size: 20px;
+  font-family: 'Audiowide', cursive;
+  border: 1px solid #F94C91;
+  background-color: #333333;
+  color: #F94C91;
+}
+#level1:hover {
+  border: 1px solid #7FFA50;
+  color: #7FFA50;
+}
+#level2:hover {
+  border: 1px solid rgba(247, 255, 0, 1);
+  color: rgba(247, 255, 0, 1);
+}
+#level3:hover {
+  border: 1px solid #FF0000;
+  color: #FF0000;
 }
