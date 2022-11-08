@@ -23,7 +23,7 @@
     "babel": "^6.5.2",
     "babel-core": "^6.18.2",
     "babel-eslint": "^8.2.1",
-    "babel-loader": "^6.2.7",
+    "babel-loader": "^9.1.0",
     "babel-preset-env": "^1.6.1",
     "chai": "^3.5.0",
     "css-loader": "^0.26.0",
@@ -32,7 +32,7 @@
     "mocha-loader": "^1.0.0",
     "node-libs-browser": "^1.0.0",
     "style-loader": "^0.13.1",
-    "webpack": "^1.15.0",
+    "webpack": "^5.74.0",
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
